@@ -1,0 +1,2 @@
+main.a1::C:/Users/Samuel/Desktop/160144647_samuel/main.cpp
+testa_romano.a1::C:/Users/Samuel/Desktop/160144647_samuel/testa_romano.cpp

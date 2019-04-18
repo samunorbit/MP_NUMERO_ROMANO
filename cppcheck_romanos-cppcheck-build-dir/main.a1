@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1929163966">
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;romano&apos; should be passed by reference." verbose="Parameter &apos;romano&apos; is passed by value. It could be passed as a (const) reference which is usually faster and recommended in C++." cwe="398">
+            <location file0="C:\Users\Samuel\Desktop\160144647_samuel\main.cpp" file="C:\Users\Samuel\Desktop\160144647_samuel\romano.hpp" line="39"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="4"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="k"/>
+    <functioncall functionName="l"/>
+    <functioncall functionName="numero_romano"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="retorna_numero"/>
+  </FileInfo>
+</analyzerinfo>

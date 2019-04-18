@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.83"/>
+    <errors>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;romano&amp;#039; should be passed by reference." verbose="Parameter &amp;#039;romano&amp;#039; is passed by value. It could be passed as a (const) reference which is usually faster and recommended in C++." sinceDate="18/04/2019">
+            <location file="romano.hpp" line="39"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to expand &amp;#039;REQUIRE&amp;#039;, Invalid ## usage when expanding &amp;#039;INTERNAL_CATCH_TEST&amp;#039;." verbose="failed to expand &amp;#039;REQUIRE&amp;#039;, Invalid ## usage when expanding &amp;#039;INTERNAL_CATCH_TEST&amp;#039;." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="2328"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" sinceDate="18/04/2019">
+            <location file="catch.hpp" line="14569"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &amp;#039;m_ref&amp;#039; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&amp;#039;t explicitly write them to the initialization list. You could avoid assigning &amp;#039;m_ref&amp;#039; a value by passing the value to the constructor in the initialization list." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="7397"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &amp;#039;m_ref&amp;#039; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&amp;#039;t explicitly write them to the initialization list. You could avoid assigning &amp;#039;m_ref&amp;#039; a value by passing the value to the constructor in the initialization list." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="7402"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Args&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Args&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="6920"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ResultBase&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ResultBase&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="7028"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ResultValueBase&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ResultValueBase&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="7045"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;Help&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;Help&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="7562"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;TestInvokerAsFunction&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;TestInvokerAsFunction&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="9988"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;FileStream&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;FileStream&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="11226"/>
+        </error>
+        <error id="copyCtorAndEqOperator" severity="warning" msg="The class &amp;#039;ResultValueBase&amp;#039; has &amp;#039;copy constructor&amp;#039; but lack of &amp;#039;operator=&amp;#039;." verbose="The class &amp;#039;ResultValueBase&amp;#039; has &amp;#039;copy constructor&amp;#039; but lack of &amp;#039;operator=&amp;#039;." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="7037"/>
+        </error>
+        <error id="copyCtorAndEqOperator" severity="warning" msg="The class &amp;#039;BasicResult&amp;#039; has &amp;#039;copy constructor&amp;#039; but lack of &amp;#039;operator=&amp;#039;." verbose="The class &amp;#039;BasicResult&amp;#039; has &amp;#039;copy constructor&amp;#039; but lack of &amp;#039;operator=&amp;#039;." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="7082"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;columnInfos&amp;#039; should be passed by reference." verbose="Parameter &amp;#039;columnInfos&amp;#039; is passed by value. It could be passed as a (const) reference which is usually faster and recommended in C++." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="13580"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;_label&amp;#039; should be passed by reference." verbose="Parameter &amp;#039;_label&amp;#039; is passed by value. It could be passed as a (const) reference which is usually faster and recommended in C++." sinceDate="18/04/2019">
+            <location file="catch.hpp" line="13835"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_CPP17_OPTIONAL;CATCH_CONFIG_NO_CPP17_OPTIONAL;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_CPP17_OPTIONAL;CATCH_CONFIG_NO_CPP17_OPTIONAL;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_CPP17_VARIANT;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_CPP17_VARIANT;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_DISABLE_MATCHERS;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_DISABLE_MATCHERS;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_DISABLE_MATCHERS;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_DISABLE_MATCHERS;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_DISABLE_STRINGIFICATION;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_DISABLE_STRINGIFICATION;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_FAST_COMPILE;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_FAST_COMPILE;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL;CATCH_CONFIG_RUNTIME_STATIC_REQUIRE&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL;CATCH_CONFIG_RUNTIME_STATIC_REQUIRE&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_RUNTIME_STATIC_REQUIRE&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_RUNTIME_STATIC_REQUIRE&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE_MATCHERS;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE_MATCHERS;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_DISABLE_MATCHERS;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_DISABLE_MATCHERS;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_ENABLE_ALL_STRINGMAKERS;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_ENABLE_ALL_STRINGMAKERS;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_FALLBACK_STRINGIFIER;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_FALLBACK_STRINGIFIER;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_NO_TRADITIONAL_MSVC_PREPROCESSOR;CATCH_CONFIG_TRADITIONAL_MSVC_PREPROCESSOR&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_NO_TRADITIONAL_MSVC_PREPROCESSOR;CATCH_CONFIG_TRADITIONAL_MSVC_PREPROCESSOR&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;CATCH_CONFIG_PREFIX_ALL&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;TARGET_OS_IPHONE=1;__APPLE__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;TARGET_OS_IPHONE=1;__APPLE__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;TARGET_OS_OSX=1;__APPLE__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;TARGET_OS_OSX=1;__APPLE__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;WINAPI_FAMILY;_MSC_VER&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;WINAPI_FAMILY;_MSC_VER&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_CPPUNWIND;__EXCEPTIONS;__cpp_exceptions&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_CPPUNWIND;__EXCEPTIONS;__cpp_exceptions&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_GLIBCXX_RELEASE;__GLIBCXX__;__clang__;__has_include&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_GLIBCXX_RELEASE;__GLIBCXX__;__clang__;__has_include&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_MANAGED&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_MANAGED&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_MSC_VER&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_MSC_VER&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_MSC_VER;_MSVC_TRADITIONAL&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_MSC_VER;_MSVC_TRADITIONAL&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_MSVC_LANG&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;_MSVC_LANG&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__ANDROID__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__ANDROID__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__APPLE__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__APPLE__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__BORLANDC__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__BORLANDC__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__CYGWIN__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__CYGWIN__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__CYGWIN__;__DJGPP__;__EMSCRIPTEN__;__QNX__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__CYGWIN__;__DJGPP__;__EMSCRIPTEN__;__QNX__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__DJGPP__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__DJGPP__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__JETBRAINS_IDE__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__JETBRAINS_IDE__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__ORBIS__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__ORBIS__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__OS400__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__OS400__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__clang__&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__clang__&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__clang__;__has_include&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__clang__;__has_include&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__has_include&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__has_include&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__linux;__linux__;linux&amp;#039; was not checked because its code equals another one." verbose="The configuration &amp;#039;CATCH_CONFIG_IMPL_ONLY;__linux;__linux__;linux&amp;#039; was not checked because its code equals another one." sinceDate="18/04/2019">
+            <location file="testa_romano.cpp" line="0"/>
+        </error>
+    </errors>
+</results>
